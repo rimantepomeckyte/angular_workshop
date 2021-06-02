@@ -1,0 +1,27 @@
+$spacing: 20px;
+
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+h3 {
+  text-align: center;
+  margin-bottom: $spacing;
+}
+
+.hero-cards-wrapper {
+  display: flex;
+  justify-content: space-around;
+  gap: $spacing;
+}
+
+.hero-card {
+  background-color: plum;
+  color: white;
+  min-width: 140px;
+  min-height: 170px;
+  margin-bottom: $spacing;
+  text-align: center;
+}
